@@ -1,0 +1,168 @@
+
+body{
+    margin: 0 0 100px;
+
+}
+
+
+
+/* header logo e background */
+
+header section{
+    background-color: #19a2fd;
+    background-image: url("/IMG/img/pattern.png");
+    background-repeat: repeat;
+    background-size: 30%;
+}
+
+header section img{
+    padding: 80px 0px 0px 40px;
+    width: 17%;
+}
+
+
+
+
+
+
+/* header con testata articolo */
+
+
+.sectionHeader{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.sectionHeader h1{
+    font-size: 72px;
+    margin: 40px 0px 12px 0px;
+    width: 85%;
+}
+
+/* header color text and bolder */
+.header-p-gray, h3{
+    color: gray;
+    margin: 0;
+    font-size: 22px;
+    font-weight: bold;
+    
+    
+}
+.header-p-gray span {
+    color: #19a2fd;
+    
+    
+    
+}
+
+.header-p-gray-smaller{
+    color: gray;
+    margin: 0px 0px 20px 0px;
+    font-size: 17px;
+    font-weight: bold;
+    
+}
+
+
+
+
+
+/* img articolo */
+
+.Div-header-img{
+    width: 49%;
+    margin-bottom: 0;
+    height: 750px;
+
+    
+}
+
+/* descrizione foto */
+.header-div p{
+    margin: 0;
+}
+
+
+
+
+
+
+/* impostazione dimensione font-size */
+.sectionHeader-child p, li, th, td{
+    font-size: 20px;
+}
+.sectionHeader-child span{
+    background-color: yellow;
+}
+
+
+
+
+
+
+/* impostazione tabella, bordi, dimensione */
+table{
+    border-collapse: collapse;
+    width: 100%;
+    width:100%;
+    height:auto;
+    border-collapse: collapse;
+    table-layout:auto;  
+    
+}
+table thead{
+    background-color: #19a2fd;
+    color: white;
+    text-align: left;
+}
+table tbody{
+    background-color: #81cdff;
+    
+}
+table tbody td:nth-child(3) {
+    width: 30%;
+}
+
+table #table-selected{
+    background-color: white;
+}
+
+
+
+
+/* impostazione footer, immagini background e testo h3 */
+
+.sectionFooter{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+
+.sectionFooter h3{
+    margin: 30px 0 0 10px;
+}
+
+.sectionFooter .div-image, .div-image2{
+    background-image: url("/IMG/img/monitor.jpg");
+    background-size: cover;
+    width: 400px;
+    height: 380px;
+    
+}
+.sectionFooter .div-image2{
+    background-image: url("/IMG/img/graph.jpg");
+
+    
+}
+
+
+.div-image p, .div-image2 p{
+    color: white;
+    font-size: 22px;
+    padding: 20px 0 0 8px;
+    font-weight: bolder;
+    
+}
+
+
+
