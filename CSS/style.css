@@ -16,8 +16,8 @@ header section{
 }
 
 header section img{
-    padding: 80px 0px 0px 40px;
-    width: 17%;
+    padding: 80px 0px 10px 40px;
+    width: 20%;
 }
 
 
@@ -34,7 +34,7 @@ header section img{
 }
 
 .sectionHeader h1{
-    font-size: 72px;
+    font-size: 5rem;
     margin: 40px 0px 12px 0px;
     width: 85%;
 }
@@ -69,13 +69,21 @@ header section img{
 
 /* img articolo */
 
-.Div-header-img{
-    width: 49%;
-    margin-bottom: 0;
-    height: 750px;
-
-    
+.header-div > div {
+    width: 45%;
+    display: inline-block;
 }
+
+.Div-header-img{
+    width: 117%;
+  
+}
+.Div-header-img2{
+    width: 100%;
+    margin-left: 17%;
+  
+}
+
 
 /* descrizione foto */
 .header-div p{
@@ -145,8 +153,10 @@ table #table-selected{
 .sectionFooter .div-image, .div-image2{
     background-image: url("/IMG/img/monitor.jpg");
     background-size: cover;
-    width: 400px;
-    height: 380px;
+    max-width: 350px;
+    height: 310px;
+    
+    
     
 }
 .sectionFooter .div-image2{
@@ -158,8 +168,8 @@ table #table-selected{
 
 .div-image p, .div-image2 p{
     color: white;
-    font-size: 22px;
-    padding: 20px 0 0 8px;
+    font-size: 24px;
+    padding: 20px 0px 0px 15px;
     font-weight: bolder;
     
 }
